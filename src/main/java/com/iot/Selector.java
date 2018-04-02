@@ -17,6 +17,13 @@ import java.util.Set;
  *
  * SelectionKey interest集合 ready集合 Channel  Selector  附加对象
  * 访问这几个参数的方法：集合使用“位或”，其余直接获取
+ *
+ * 某一信息通过SelectionKey附着，这样就能方便的识别某个给定的通道。例如，可以附加与通道一起使用的Buffer，或是包含聚集数据的某个对象。
+ * selectionKey.attach(theObject);
+ * Object attachedObj = selectionKey.attachment();
+ *
+ * 用register()方法向Selector注册Channel的时候附加对象
+ * SelectionKey key = channel.register(selector, SelectionKey.OP_READ, theObject);
  */
 public class Selector {
 
