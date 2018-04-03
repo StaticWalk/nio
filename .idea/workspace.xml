@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fabdd00e-0ec9-436f-b911-beb3dca598bc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../nio/src/main/java/com/iot/FileChannelDemo.java" />
-      <change beforePath="$PROJECT_DIR$/../nio/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../nio/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../nio/src/main/java/com/iot/Selector.java" afterPath="$PROJECT_DIR$/../nio/src/main/java/com/iot/SelectorDemo.java" />
-    </list>
+    <list default="true" id="fabdd00e-0ec9-436f-b911-beb3dca598bc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
